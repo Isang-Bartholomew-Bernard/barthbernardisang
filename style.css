@@ -1,0 +1,13 @@
+p{
+    font-size:40px;
+    background-color:red;
+    border:solid 20px khaki;
+    padding: 50px;
+    margin: 50px 50px 50px 50px;
+}
+body{
+    background-color: #345ef4;
+}
+.container{
+    margin: 0px auto;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+</head>
+<body style="background-color:antiquewhite" >
+ <form action="action_page.php"method="POST">
+     <div>
+         <label for="fname">First Name</label>
+         <input type="text"id="fname"name="fname"placeholder="First name"required>
+     </div>
+     <br>
+     <div>
+        <label for="lname">Last Name</label>
+         <input type="text"id="lname"name="lname"placeholder="Last name"required> 
+     <br>
+     <div>
+        <label for="pass">Password:</label>
+        <input type="password"id="pass"name="pass"maxlength="12"required>
+     </div>
+     <br>
+     <div>
+         <label for="email">Email</label>
+         <input type="email"placeholder="your email">
+     </div>
+     <br>
+     <div>
+         <label for="phone">Phone:</label>
+         <input type="tel"id="phone"name="phone"placeholder="">
+     </div>
+     <br>
+     <div>
+<label for="bdate">Birthday:</label>
+<input type="date"id="bdate"name="bdate">
+     </div>
+     <br>
+     <div>
+         <label for="quantity">Quantity</label>
+         <input type="number"id="quantity"name="quantity"min="0"max="99"value="1">
+     </div>
+     <br>
+     <div>
+         <label for="title">Title:</label>
+         <label>Mr.</label>
+         <input type="radio"id="Mr"name="title"value="Mr">
+         <label>Mrs.</label>
+         <input type="radio"id="Mrs"name="title"value="Mrs">  
+         <label>PhD.</label>
+         <input type="radio"id="PhD"name="title"value="PhD">
+     </div>
+     <br>
+     <div>
+<label for="payment">Payment:</label>
+<select id="payment"name="payment">
+    <option value="Visa">Visa</option>
+    <option value="Mastercards">Mastercards</option>
+    <option value="Giftcard">Giftcard</option>
+</select>
+     </div>
+     <br>
+     <div>
+        <label for="subscribe">Subscribe:</label>   
+<input type="checkbox"id="subscribe"name="subscribe">
+     </div>
+     <br>
+     <div>
+         <input type="Reset">
+     </div>
+     <br>
+     <div>
+     <div>
+        <div>
+<input type="Submit">
+     </div>
+ </form>   
+</body>
+</html>
