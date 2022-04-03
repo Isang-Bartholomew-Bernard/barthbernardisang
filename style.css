@@ -11,3 +11,11 @@ body{
 .container{
     margin: 0px auto;
 }
+.navbar{
+    text-transform: capitalize;
+    padding: 0 10px;
+    margin: 0 5px;
+    text-decoration: none;
+    color: bisque;
+    transition: .5s;
+}
